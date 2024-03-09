@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN-FORM</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>  
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="#">Prima<span>Rental.</span></a>
+        </div>
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a href="#" class="desktop-item">Layanan</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Layanan</label>
+            <ul class="drop-menu">
+              <li><a href="#">VVIP Rent Car</a></li>
+              <li><a href="#">Daily Rent Car</a></li>
+              <li><a href="#">Driver Service</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Kontak</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div>  
+    </nav>
+    <br>
+    <br>
+    <div class="container">
+      <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true" />
+
+        <div class="login">
+          <form class="form">
+            <label for="chk" aria-hidden="true">Log in</label>
+            <input
+              class="input"
+              type="email"
+              autocomplete="off"
+              name="email"
+              placeholder="Email"
+              required=""
+            />
+            <input
+              class="input"
+              type="password"
+              name="pswd"
+              placeholder="password"
+              required=""
+            />
+            <button>Log in</button>
+          </form>
+        </div>
+        <div class="register">
+          <form class="form">
+            <label for="chk" aria-hidden="true">Register</label>
+            <input
+              class="input"
+              type="text"
+              name="text"
+              placeholder="username"
+              autocomplete="off"
+              required=""
+            />
+            <input
+              class="input"
+              type="text"
+              name="text"
+              placeholder="Phone-number"
+              autocomplete="off"
+              required=""
+            />
+            <input
+              class="input"
+              type="email"
+              autocomplete="off"
+              name="email"
+              placeholder="Email"
+              required=""
+            />
+            <input
+              class="input"
+              type="password"
+              name="pswd"
+              placeholder="password"
+              required=""
+            />
+            <button>Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+
+      <div class="container__footer">
+          <div class="box__footer">
+
+              <div class="terms">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</p>
+              </div>
+          </div>
+          <div class="box__footer">
+              <h2>Soluciones</h2>
+              <a href="https://www.google.com">App Desarrollo</a>
+              <a href="#">App Marketing</a>
+              <a href="#">IOS Desarrollo</a>
+              <a href="#">Android Desarrollo</a>
+          </div>
+
+          <div class="box__footer">
+              <h2>Compañia</h2>
+              <a href="#">Acerca de</a>
+              <a href="#">Trabajos</a>
+              <a href="#">Procesos</a>
+              <a href="#">Servicios</a>              
+          </div>
+
+          <div class="box__footer">
+              <h2>Kontak</h2>
+              <a href="#"> <i class="fab fa-facebook-square"></i> PrimaRental</a>
+              <a href="#"><i class="fab fa-twitter-square"></i> Prima_Rental00</a>
+              <a href="#"><i class="fab fa-instagram-square"></i> Prima_rental</a>
+              <a href="#"><i class="fab fa-whatsapp-square"></i> 081240001025</a>
+          </div>
+
+      </div>
+
+      <div class="box__copyright">
+          <hr>
+          <p>Copyright © 2021 <b>PrimaRental.</span></b></p>
+      </div>
+  </footer>
+  </body>
+</html>
